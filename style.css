@@ -1,0 +1,129 @@
+/* 清除元素默认的内外边距 */
+@font-face {
+    font-family: "iconfont";
+    /* Project id 4353918 */
+    src: url('iconfont.woff2?t=1701426289225') format('woff2'),
+        url('iconfont.woff?t=1701426289225') format('woff'),
+        url('iconfont.ttf?t=1701426289225') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-warn-line:before {
+    content: "\e62d";
+    font-size: 50px;
+    color: #85c4cc;
+}
+
+.icon-fanhui:before {
+    content: "\e600";
+    font-size: 50px;
+    color: #85c4cc;
+}
+
+.icon-shangchuanzhaopian:before {
+    content: "\e625";
+    font-size: 148px;
+    color: #c0dbe3;
+
+}
+a:hover {
+    color: #0b7cb0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 版心442，水平居中 */
+.w {
+    width: 442px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+input {
+    border-style: none;
+    background-color: transparent;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+}
+.information li {
+    list-style: none; 
+    border-bottom: 3px solid #889ec1;
+    cursor: text;
+}
+.header {
+    width: 600px;
+    height: 112px;
+    font-size: 32px;
+    font-family: Myriad Pro;
+    display: flex;
+    justify-content: space-between;
+    line-height: 107px;
+}
+
+.Sign {
+    color: #d0e8eb;
+}
+body {
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    max-width: 600px;
+    min-width: 320px;
+    margin: 0 auto;
+    background-position-x: center;
+    background-position-y: 0px;
+}
+.photo {
+    height: 240px;
+    line-height: 240px;
+    text-align: center;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 26px;
+    color: #fff;
+    height: 225px;
+    line-height: 75px;
+    font-family: Myriad Pro;
+}
+.password {
+    display: flex;
+    justify-content: space-between;
+    cursor: text;
+}
+.up a {
+    display: block;
+    margin-top: 130px;
+    background-color: #fff;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 75px;
+    color: #6d6a9d;
+    font-size: 34px;
+}
+li a,
+span a {
+    color: #3cffb5;
+}
+.in {
+    margin-top: 32px;
+    font-size: 24px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+
